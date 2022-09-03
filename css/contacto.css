@@ -1,0 +1,94 @@
+.section-contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.section-contacto .div-contacto {
+    display: grid;
+    margin-top: 50px;
+}
+
+.section-contacto .div-contacto div {
+    background-image: linear-gradient(to left, #fcd112, #f1dc7b, white, #f1dc7b, #fcd112);
+    padding: 40px;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.section-contacto .div-contacto div p {
+    padding: 10px;
+}
+
+.section-contacto .div-contacto div p i {
+    margin-right: 25px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+.section-contacto .form-contacto section {
+    background-image: linear-gradient(to left, #fcd112, #f1dc7b, white, #f1dc7b, #fcd112);
+    padding: 40px;
+    border-radius: 10px;
+    width: 90vh;
+    margin-top: 90px;
+    height: 70vh;
+}
+
+.section-contacto h1 {
+    color: black;
+    font-size: 3rem;
+}
+
+.section-contacto .form-contacto section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-contacto .form-contacto section form .error {
+    display: none;
+    color: red;
+    font-size: 1rem;
+}
+
+.section-contacto .form-contacto section form h2 {
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.section-contacto .form-contacto section form label,
+.section-contacto .form-contacto section form div {
+    margin: 5px 0px 5px 0px;
+    font-size: 1.1rem;
+}
+
+.section-contacto .form-contacto section form form input,
+.section-contacto .form-contacto section form form textarea {
+    border: none;
+    border-radius: 5px;
+    border-bottom: 1px solid #000100;
+    resize: none;
+}
+
+.section-contacto .form-contacto section form form input:focus,
+.section-contacto .form-contacto section form form textarea:focus {
+    outline: none;
+}
+
+.section-contacto .form-contacto section form .submit-btn {
+    width: 100%;
+    background: black;
+    color: white;
+}
+
+.section-contacto .form-contacto section form .submit-btn:hover {
+    color: black;
+    background: #989895;
+}

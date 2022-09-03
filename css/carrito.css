@@ -1,0 +1,266 @@
+/** {
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}*/
+
+@import url('https://fonts.googleapis.com/css?family=DM+Sans&display=swap');
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: #fcd112;
+    font-weight: 700;
+    font-size: 5rem;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+header {
+    background-color: rgb(41, 41, 41);
+    border-bottom: 5px solid rgba(255, 255, 255, 0.3);
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 2rem;
+    font-style: 700;
+}
+
+.nav-link:hover {
+    box-shadow: 0 3px 0 0 #fcd112;
+    background: #989895;
+    border-radius: 0.5rem;
+    color: black;
+}
+
+.navbar {
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.nav-item {
+    width: 20rem;
+    align-items: center;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+@media (min-width: 750px) {
+    header {
+        text-align: left;
+    }
+}
+
+ul {
+    list-style: none;
+}
+
+#hero {
+    background-image: url(../img/food.jpg);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+    width: 100%;
+    margin-top: 6rem;
+    padding: 3rem;
+}
+
+#encabezado {
+    margin: 5px 0;
+}
+
+.contenido-hero {
+    margin-top: 20px;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.contenido-hero h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    border-radius: 1rem;
+    margin-top: 0;
+}
+
+.contenido-hero h2 {
+    font-size: 3rem;
+    color: white;
+}
+
+.productos h3,
+.contenido-hero h3 {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+
+.contenido-hero form {
+    position: relative;
+    margin-bottom: 0;
+}
+
+.contenido-hero form #buscador {
+    height: 50px;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.contenido-hero form .submit-buscador {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    padding: 0;
+    display: block;
+    text-indent: -9999px;
+    width: 100%;
+    background-image: url(../img/huella2.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.submit-buscador {
+    margin-right: 10px;
+}
+
+.barra {
+    background-image: linear-gradient(to left, #fcd112, #f1dc7b, white, #f1dc7b, #fcd112);
+    padding: 6rem;
+}
+
+.barra p {
+    margin: 1rem;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.barra h4 {
+    margin: 1rem;
+    color: black;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.icono {
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 60px;
+    background-size: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.icono1,
+.icono2,
+.icono3 {
+    background-image: url(../img/huella2.png);
+}
+
+.footer {
+    margin-top: 0px;
+    border-top: 1px solid #aaa;
+    background-color: black;
+    padding: 4rem;
+}
+
+.footer .menu a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #fcd112;
+    font-size: 1.5rem;
+}
+
+.logo {
+    border-radius: 1rem;
+}
+
+.huella {
+    border-radius: 1rem;
+    box-shadow: -20px 20px 20px #fcd112;
+}
+
+.card {
+    /*background: black;*/
+    background-image: linear-gradient(to left, rgb(188, 187, 187), black, rgb(188, 187, 187));
+    /*background-image: linear-gradient(to top, #fcd112, white, #fcd112);*/
+    border: none;
+    border-left: none;
+    border-right: none;
+}
+
+.productos {
+    background-image: linear-gradient(to left, white, black, white);
+}
+
+.card-body {
+    width: auto;
+    margin: 20px;
+    text-align: center;
+    background-image: linear-gradient(to top, #fcd112, white, #fcd112);
+    border-radius: 0.5rem;
+}
+
+.card-body h6 {
+    font-weight: bold;
+}
+
+.submenu .col-sm-4 {
+    display: none;
+}
+
+.submenu h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: black
+}
+
+.submenu:hover .col-sm-4 {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    z-index: 1;
+    background-image: linear-gradient(to left, #fcd112, #f1dc7b, white, #f1dc7b, #fcd112);
+    padding: 20px;
+    min-height: auto;
+    min-width: auto;
+    /*overflow-y: scroll;
+    -webkit-scrollbar-button: horizontal;
+    -webkit-scrollbar-thumb: start;*/
+    overflow: hidden;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    color: black;
+}
+
+#boton-pagar.btn-success {
+    text-decoration: none;
+}

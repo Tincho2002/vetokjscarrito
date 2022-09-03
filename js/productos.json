@@ -1,0 +1,109 @@
+[{
+        "id": 1,
+        "tipo": "Seco",
+        "clase": "Gato",
+        "nombre": "EXCELLENT",
+        "precio": 14400,
+        "descripcion": "Adult Cat Smart 15Kg",
+        "foto": "../img/ID1.jpg"
+    },
+    {
+        "id": 2,
+        "tipo": "Seco",
+        "clase": "Gato",
+        "nombre": "ROYAL CANIN",
+        "descripcion": "Regular Fit 15Kg",
+        "precio": 15100,
+        "foto": "../img/ID2.jpg"
+    },
+    {
+        "id": 3,
+        "tipo": "Seco",
+        "clase": "Gato",
+        "nombre": "CAT CHOW",
+        "descripcion": "Adultos Pescado 15Kg",
+        "precio": 10050,
+        "foto": "../img/ID3.jpg"
+    },
+    {
+        "id": 4,
+        "tipo": "Humedo",
+        "clase": "Gato",
+        "nombre": "PROPLAN",
+        "descripcion": "Pouch Sterilized Cat Caja de 12 sobres de 85gr c/u",
+        "precio": 3800,
+        "foto": "../img/ID4.jpg"
+    },
+    {
+        "id": 5,
+        "tipo": "Humedo",
+        "clase": "Gato",
+        "nombre": "CAT CHOW",
+        "descripcion": "Pouch Adultos Pescado Caja de 12 sobres de 85gr c/u",
+        "precio": 2300,
+        "foto": "../img/ID5.jpg"
+    },
+    {
+        "id": 6,
+        "tipo": "Humedo",
+        "clase": "Gato",
+        "nombre": "ROYAL CANIN",
+        "descripcion": "Pouch Instinctive Cat Caja de 12 sobres de 85gr c/u",
+        "precio": 4800,
+        "foto": "../img/ID6.jpg"
+    },
+    {
+        "id": 7,
+        "tipo": "Seco",
+        "clase": "Perro",
+        "nombre": "EXCELLENT",
+        "descripcion": "Dog Raza Mdna Y Gde Smart 15Kg",
+        "precio": 8300,
+        "foto": "../img/ID7.jpg"
+    },
+    {
+        "id": 8,
+        "tipo": "Seco",
+        "clase": "Perro",
+        "nombre": "EUKANUBA",
+        "descripcion": "Adult Large Breed 15Kg",
+        "precio": 11300,
+        "foto": "../img/ID8.jpg"
+    },
+    {
+        "id": 9,
+        "tipo": "Seco",
+        "clase": "Perro",
+        "nombre": "ROYAL CANIN",
+        "descripcion": "Maxi Adult 15Kg",
+        "precio": 13700,
+        "foto": "../img/ID9.png"
+    },
+    {
+        "id": 10,
+        "tipo": "Humedo",
+        "clase": "Perro",
+        "nombre": "DOG CHOW",
+        "descripcion": "Pouch Adult Dog Chicken Caja de 15 sobres de 100gr c/u",
+        "precio": 4300,
+        "foto": "../img/ID10.jpg"
+    },
+    {
+        "id": 11,
+        "tipo": "Humedo",
+        "clase": "Perro",
+        "nombre": "ROYAL CANIN",
+        "descripcion": "Pouch Mini Adult Caja de 12 sobres de 85gr c/u",
+        "precio": 3000,
+        "foto": "../img/ID11.png"
+    },
+    {
+        "id": 12,
+        "tipo": "Humedo",
+        "clase": "Perro",
+        "nombre": "OPTIMUN",
+        "descripcion": "Pouch Perro Adulto Raza Mediana Y Grande Caja de 12 sobres de 100gr c/u",
+        "precio": 2300,
+        "foto": "../img/ID12.jpg"
+    }
+]

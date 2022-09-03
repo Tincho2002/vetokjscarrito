@@ -1,0 +1,88 @@
+form {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    background-image: linear-gradient(to left, #fcd112, #f1dc7b, white, #f1dc7b, #fcd112);
+    border-radius: 2rem;
+    padding: 3rem;
+    margin: 8rem;
+}
+
+form input {
+    margin: 1rem;
+    padding: .5rem;
+    border-radius: 1rem;
+    border: none;
+}
+
+#description {
+    border: none;
+    min-width: 80%;
+    margin: 1rem;
+    padding: .5rem;
+    border-radius: 1rem;
+}
+
+button {
+    padding: .1rem .5rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    border: none;
+    color: aliceblue;
+    background-color: black;
+}
+
+.deleteBtn {
+    background-color: blue;
+}
+
+.editBtn {
+    background-color: darkgray;
+}
+
+.itemCard {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1dc7b;
+    margin: 1rem;
+    padding: 0 1rem;
+    border-radius: 1rem;
+}
+
+.card-head {
+    text-align: center;
+    width: 20%;
+}
+
+.card-head>h3 {
+    font-size: x-large;
+}
+
+.card-head>p {
+    color: red;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.card-description {
+    width: 50%;
+}
+
+#newDescription {
+    border: none;
+    min-width: 60%;
+    margin: 1rem;
+    padding: .5rem;
+    border-radius: 1rem;
+}
+
+.val {
+    background-color: #fcd112;
+}
+
+#listSection {
+    margin: 7rem;
+}

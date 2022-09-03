@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Sans&display=swap');
+body {
+    background-image: linear-gradient(to left, #fcd112, #f1dc7b, white, #f1dc7b, #fcd112);
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: #fcd112;
+    font-weight: 700;
+    font-size: 5rem;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+header {
+    background-color: rgb(41, 41, 41);
+    border-bottom: 5px solid rgba(255, 255, 255, 0.3);
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 2rem;
+    font-style: 700;
+}
+
+.nav-link:hover {
+    box-shadow: 0 3px 0 0 #fcd112;
+    background: #989895;
+    border-radius: 0.5rem;
+    color: black;
+}
+
+.navbar {
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.nav-item {
+    width: 20rem;
+    align-items: center;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+@media (min-width: 750px) {
+    header {
+        text-align: left;
+    }
+}
+
+.footer {
+    margin-top: 0px;
+    border-top: 1px solid #aaa;
+    background-color: black;
+    padding: 4rem;
+}
+
+.footer .menu a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #fcd112;
+    font-size: 1.5rem;
+}
+
+.logo {
+    border-radius: 1rem;
+}
+
+.huella {
+    border-radius: 1rem;
+    box-shadow: -20px 20px 20px #fcd112;
+}
+
+.card {
+    margin: 20rem;
+    padding: 3rem;
+    border-radius: 0.5rem;
+    background-image: linear-gradient(to left, #f1dc7b, white, #f1dc7b);
+    box-shadow: -20px 20px 20px #fcd112;
+}
+
+.card h1 {
+    color: black;
+}
+
+.card p {
+    font-size: larger;
+
+}

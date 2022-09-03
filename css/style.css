@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Sans&display=swap');
+body {
+    /*background-image: linear-gradient(to bottom, white, black, white); */
+    background-image: linear-gradient(to left, white, black, white);  
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+header {
+    background-color: black;
+}
+
+.cardProducto {
+    width: 300px;
+    background-image: linear-gradient(to top, #fcd112, white, #fcd112);
+    align-self: center;
+    text-align: center;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    font-size: small;
+}
+
+
+.fakeAncla {
+    text-decoration: underline;
+    color: #fcd112;
+}
+
+#logged p {
+    font-size: medium;
+    text-align: center;
+    color: #fcd112;
+}
+
+.d-flex {
+    background-color: #989895;
+    border-radius: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.navbar {
+    color: #fcd112;
+    width: auto;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 2rem;
+    font-style: 700;
+}
+
+.nav-link:hover {
+    box-shadow: 0 3px 0 0 #fcd112;
+    background: #989895;
+    border-radius: 0.5rem;
+    color: black;
+}
+
+h1,
+h2,
+h3 {
+    color: #fcd112;
+}
+
+h1 {
+    font-weight: 700;
+    text-align: center;
+    background-image: url(img/food.jpg);
+}
+
+
+.nav-item {
+    width: 12rem;
+    align-items: center;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+#boton-pagar {
+    text-decoration: none;
+}
+
+.footer {
+    margin-top: 0px;
+    border-top: 1px solid #aaa;
+    background-color: black;   
+    padding-top: 3rem;
+}
+
+.footer .menu a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #fcd112;
+    font-size: 1.5rem;
+}
+
+.logo {
+    border-radius: 1rem;
+}
+
+.huella {
+    border-radius: 1rem;
+    box-shadow: -20px 20px 20px #fcd112;
+}
+
+#boton-productos {
+    text-decoration: none;
+    color: #fcd112;
+}
+
+#enlace_productos {
+    text-decoration: none;
+    color: #1ab222;
+}

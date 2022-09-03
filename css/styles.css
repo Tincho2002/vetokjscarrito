@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Sans&display=swap');
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: #fcd112;
+    font-weight: 700;
+    font-size: 5rem;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+header {
+    background-color: rgb(41, 41, 41);
+    border-bottom: 5px solid rgba(255, 255, 255, 0.3);
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 2rem;
+    font-style: 700;
+}
+
+.nav-link:hover {
+    box-shadow: 0 3px 0 0 #fcd112;
+    background: #989895;
+    border-radius: 0.5rem;
+    color: black;
+}
+
+.navbar {
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.nav-item {
+    width: 20rem;
+    align-items: center;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+@media (min-width: 750px) {
+    header {
+        text-align: left;
+    }
+}
+
+.borrar-producto {
+    background-color: #f1dc7b;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+ul {
+    list-style: none;
+}
+
+#hero {
+    background-image: url(../img/food.jpg);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+    width: 100%;
+}
+
+#encabezado {
+    margin: 5px 0;
+}
+
+.submenu {
+    position: relative;
+}
+
+.submenu #carrito {
+    display: none;
+}
+
+.submenu:hover #carrito {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    z-index: 1;
+    background-image: linear-gradient(to left, #fcd112, #f1dc7b, white, #f1dc7b, #fcd112);
+    padding: 20px;
+    min-height: 400px;
+    min-width: 300px;
+    border-radius: 0.5rem;
+}
+
+.vacio {
+    padding: 10px;
+    background-color: crimson;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+
+.contenido-hero {
+    margin-top: 20px;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.contenido-hero h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    border-radius: 1rem;
+    margin-top: 0;
+}
+
+.contenido-hero h2 {
+    font-size: 3rem;
+    color: white;
+}
+
+.contenido-hero h3 {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+
+.contenido-hero form {
+    position: relative;
+    margin-bottom: 0;
+}
+
+.contenido-hero form #buscador {
+    height: 50px;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.contenido-hero form .submit-buscador {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    padding: 0;
+    display: block;
+    text-indent: -9999px;
+    width: 100%;
+    background-image: url(../img/huella2.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.submit-buscador {
+    margin-right: 10px;
+}
+
+.barra {
+    padding: 20px;
+    background-image: linear-gradient(to left, #fcd112, #f1dc7b, white, #f1dc7b, #fcd112);
+}
+
+.barra p {
+    margin: 1rem;
+    color: black;
+    font-size: 2rem;
+}
+
+.barra h4 {
+    margin: 1rem;
+    color: black;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.icono {
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 60px;
+    background-size: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+@media (min-width: 750px) {
+    .icono {
+        margin-bottom: 0;
+    }
+}
+
+.icono1 {
+    background-image: url(../img/huella2.png);
+}
+
+.icono2 {
+    background-image: url(../img/huella2.png);
+}
+
+.icono3 {
+    background-image: url(../img/huella2.png);
+}
+
+#lista-productos,
+.form-carrito {
+    padding: 50px;
+    background-image: linear-gradient(to left, white, black, white);
+}
+
+.agregar-carrito {
+    margin: 10px 0;
+}
+
+.card {
+    text-align: center;
+    background-image: linear-gradient(to top, #fcd112, white, #fcd112);
+}
+
+@media (min-width: 550px) {
+    .card {
+        text-align: left;
+    }
+}
+
+.info-card {
+    padding: 25px 45px;
+}
+
+.info-card p,
+.card h4 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.card h4 {
+    font-weight: bold;
+}
+
+.info-card .precio {
+    text-decoration: line-through;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.info-card .precio span {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.footer {
+    margin-top: 0px;
+    border-top: 1px solid #aaa;
+    background-color: black;
+    padding: 4rem;
+}
+
+.footer .menu a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #fcd112;
+    font-size: 1.5rem;
+}
+
+.logo {
+    border-radius: 1rem;
+}
+
+.huella {
+    border-radius: 1rem;
+    box-shadow: -20px 20px 20px #fcd112;
+}
+
+.info-card .u-full-width {
+    background-color: black;
+    border-color: black;
+}
+
+#carrito .u-full-width {
+    background-color: black;
+    border-color: black;
+    border-radius: 0.5rem;
+    align-content: center;
+}
+
+.submenu th,
+.submenu tr,
+.submenu table,
+.submenu thead,
+.submenu tbody {
+    color: white;
+    font-size: 1.2rem;
+    align-content: center;
+    padding: 2rem;
+}
+
+.form-floating {
+    color: black;
+}
+
+.form-carrito {
+    padding: 100px;
+    text-align: center;
+    background-image: linear-gradient(to top, #fcd112, white, #fcd112);
+}
+
+.form-carrito .table {
+    align-content: center;
+    background-color: rgb(212, 209, 209);
+    border-radius: 0.5rem;
+    line-height: 2.5rem;
+}
+
+#formulario h3,
+.form-carrito h2 {
+    color: black;
+}
+
+#btn-finalizar {
+    background-color: black;
+}
+
+#formulario {
+    padding: 2rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    background-image: linear-gradient(to top, #fcd112, white, #fcd112);
+}
+
+#boton-pagar {
+    text-decoration: none;
+}
+
+.cardProducto {
+    width: 300px;
+    background-color: black;
+    background-image: linear-gradient(to top, #fcd112, white, #fcd112);
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.fakeAncla {
+    text-decoration: underline;
+    color: #fcd112;
+}
+
+.loginBar {
+    background-color: #dafab2;
+    padding: 20px;
+    margin-bottom: 20px;
+}
